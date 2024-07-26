@@ -1,0 +1,26 @@
+form {
+    margin-bottom: 30px;
+}
+
+.inputWrapper {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.inputWrapper label {
+    flex: 1
+}
+
+.inputWrapper input, .inputWrapper textarea {
+    flex: 2;
+}
+
+.inputWrapper .error {
+    flex-basis: 100%;
+    color: #da0707;
+    font-weight: bold;
+}

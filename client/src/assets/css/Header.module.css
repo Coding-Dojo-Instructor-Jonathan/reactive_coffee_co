@@ -1,0 +1,12 @@
+.mainHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background-color: #e0e0e0;
+}
+
+.mainHeader nav {
+    display: flex;
+    gap: 40px;
+}
